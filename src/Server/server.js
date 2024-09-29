@@ -2,17 +2,17 @@ const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const cors = require('cors');
-const connectDB = require('./config/db');
-const Menu = require('./Schema/Menu');
-const MenusItems = require('./Schema/MenuItems');
-const Package = require('./Schema/Package');
-const MenuItemSingle = require('./Schema/PackageSingleData');
-const PackageSchema = require('./Schema/Data');
-const CartSchema = require('./Schema/Cart');
+const connectDB = require('../config/db');
+const Menu = require('../Schema/Menu');
+const MenusItems = require('../Schema/MenuItems');
+const Package = require('../Schema/Package');
+const MenuItemSingle = require('../Schema/PackageSingleData');
+const PackageSchema = require('../Schema/Data');
+const CartSchema = require('../Schema/Cart');
 // const e = require('express');
 const { ObjectId } = require('mongodb');
-const WishList = require('./Schema/WishList');
-const OrderSchema = require('./Schema/Proceed');
+const WishList = require('../Schema/WishList');
+const OrderSchema = require('../Schema/Proceed');
 
 
 
